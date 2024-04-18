@@ -1,0 +1,20 @@
+---
+title: "My first page"
+format: html
+---
+
+```{r}
+plot(women)
+```
+
+```{r}
+if(!require(pacman)) install.packages("pacman")
+pacman::p_load(reactable, tidyverse)
+```
+
+```{r}
+reactable(gss_cat)
+```
+
+
+
